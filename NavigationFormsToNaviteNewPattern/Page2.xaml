@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="NavigationFormsToNaviteNewPattern.Page2">
+    <ContentPage.Content>
+        <!-- Place new controls here -->
+        <Button Text="Click To Navigate To Page 3" 
+           HorizontalOptions="CenterAndExpand"
+                BackgroundColor="transparent"
+                Clicked="OnBtnClick"
+           VerticalOptions="Center" />
+    </ContentPage.Content>
+</ContentPage>
