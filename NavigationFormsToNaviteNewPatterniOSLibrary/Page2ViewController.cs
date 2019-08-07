@@ -7,7 +7,7 @@ namespace NavigationFormsToNaviteNewPatterniOSLibrary
 {
     public partial class Page2ViewController : XamarinFormsViewController<Page2>
     {
-        public Page2ViewController() : base("Page2ViewController", bundle: NSBundle.FromClass(new ObjCRuntime.Class("Page2ViewController")))
+        public Page2ViewController() : base("Page2ViewController", null)
         {
         }
 

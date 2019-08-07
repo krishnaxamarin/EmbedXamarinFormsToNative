@@ -7,7 +7,8 @@ namespace NavigationFormsToNaviteNewPatterniOSLibrary
 {
     public partial class MainPageViewController : XamarinFormsViewController<MainPage>
     {
-        public MainPageViewController() : base("MainPageViewController", bundle: NSBundle.FromClass(new ObjCRuntime.Class("MainPageViewController")))
+        //public MainPageViewController() : base("MainPageViewController", bundle: NSBundle.FromClass(new ObjCRuntime.Class("MainPageViewController")))
+        public MainPageViewController() : base("MainPageViewController", null)
         {
             if (!Xamarin.Forms.Forms.IsInitialized)
                 Xamarin.Forms.Forms.Init();

@@ -8,11 +8,19 @@
 
     <ContentPage.Content>
         <!-- Place new controls here -->
+        <StackLayout HorizontalOptions="FillAndExpand"
+                     VerticalOptions="FillAndExpand">
+        <Image
+            Source="helpNew"
+            HorizontalOptions="Start"
+            VerticalOptions="Start" />
+
         <Button Text="Click To Navigate To Page 2"
                 BackgroundColor="transparent"
            HorizontalOptions="CenterAndExpand"
                 Clicked="OnBtnClick"
            VerticalOptions="Center" />
+            </StackLayout>
     </ContentPage.Content>
 
 </ContentPage>
